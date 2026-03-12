@@ -39,7 +39,7 @@ end
 	#(Delay*50) $finish;
   end
   // Replace tt_um_example with your module name:
-  tt_um_vga_example (
+  tt_um_vga_example user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
