@@ -6,6 +6,7 @@
 */
 module tb_tt_um_vga_example ();
 
+parameter Delay=2;
   // Dump the signals to a FST file. You can view it with gtkwave or surfer.
   initial begin
     $dumpfile("tb_tt_um_vga_example.fst");
